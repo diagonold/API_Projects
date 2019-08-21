@@ -1,0 +1,64 @@
+Learning how to use/creat APIs
+
+what is an API in simple terms?
+think of this scenario, you are in a restaurant 
+you want created your own order and gave the RECIPE to the WAITER
+the WAITER then goes to the KITCHEN to cook your food
+the WAITER comes back with your ORDER
+
+this analogy describes an API very well
+the python script you wrote is person ordering
+the RECIPE is the request you made
+the WAITER is the API that helps communicate your order to the kitchen
+
+
+REST in a nutshell
+
+what does REST API mean?
+	REST is basically a set of useful conventions for structurring a web API
+	
+what is a web API?
+	it just means you interact with an HTTP, making request to specific URLs and getting 
+	relevant data in return. 
+
+GET and POST
+	GET is generally used to get information about some record that already exist
+	often we will see this data in forms of 'JSON objects' which are very similar
+	to dictionary in python
+	sudo syntax: HTTP GET to the URL /tasks/
+	
+	POST is typically used when you want to create something.
+	sudo syntax: HTTP POST to URL /tasks/
+
+	as you can see we get and post to the same URL
+
+other methods like 
+PUT		modify an existing resource
+DELETE	delete data 
+
+
+Talking in REST
+	 in many web services, we create RESTful API as this is a good format for passing
+	and receiving data back.
+	take note that JSON format is popular in API
+
+	in order to do this in python, we need an excellent HTTP library called requests
+
+
+what is a JSON data format?
+
+
+Constructing an API library
+	we need to make an API library if we will be using that service a lot
+	the structure of the library depends on how API authenticates
+	let us get to the basic structure first and worry about the authentication layer later
+
+	To form on the  basic structure
+	decide on the services it provides
+	1. get a summary list of task that need be done with the API
+	2. get more detailed information on a specifc task
+	3. add mew task to our lists
+	4. can mark task as done
+	5. modify an existing tasks
+
+	with this framework we can create our own internal API
