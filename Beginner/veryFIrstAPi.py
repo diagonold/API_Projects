@@ -14,7 +14,7 @@ def get_tasks():
 
 
 def describe_task(task_id):
-	return requests.get(_url('/tasks/{:d}/'.format(task_id))
+	return requests.get(_url('/tasks/{:d}/'.format(task_id)))
 
 
 def add_task(summary , description=""):
