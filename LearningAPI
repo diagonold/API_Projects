@@ -1,26 +1,33 @@
 Learning how to use/creat APIs
 
-what is an API in simple terms?
-think of this scenario, you are in a restaurant 
-you want created your own order and gave the RECIPE to the WAITER
-the WAITER then goes to the KITCHEN to cook your food
-the WAITER comes back with your ORDER
+What is an API in simple terms?
+Think of this scenario, you are in a restaurant 
+You want created your own order and gave the RECIPE to the WAITER
+The WAITER then goes to the KITCHEN to cook your food
+The WAITER comes back with your ORDER
 
-this analogy describes an API very well
-the python script you wrote is person ordering
-the RECIPE is the request you made
-the WAITER is the API that helps communicate your order to the kitchen
+This analogy describes an API very well
+The python script you wrote is person ordering
+The RECIPE is the request you made
+The WAITER is the API that helps communicate your order to the kitchen
+We make a request to a web server, to retrieve a data we need
 
+
+Why use an API?
+	1.	API are use for dynamic data
+	Data is always changing and to make sure your scripts are up to datamuse
+	using an API will help that.
+	2.	Want a small piece of a large data
+	reddit comments are one example, we cant have all the data
+	that will be too much. So we can use API to head to the correct
+	endpoints and get only the data we need.
 
 REST in a nutshell
-
 what does REST API mean?
 	REST is basically a set of useful conventions for structurring a web API
-	
 what is a web API?
 	it just means you interact with an HTTP, making request to specific URLs and getting 
 	relevant data in return. 
-
 GET and POST
 	GET is generally used to get information about some record that already exist
 	often we will see this data in forms of 'JSON objects' which are very similar
@@ -62,3 +69,44 @@ Constructing an API library
 	5. modify an existing tasks
 
 	with this framework we can create our own internal API
+
+
+ In a nutshell, the process of working with APIs is simple
+ 	1.Choose the API to work with
+	2.Read the API documentation
+	3.Start with small code, and complement it with more features.
+ I know we started off as an absolute beginners guide 
+ but gradually we built a complex program brick by brick. 
+ Trust me, the possibilities around working with APIs are endless. 
+ fully you can draw some inspiration from this blog 
+ go slay them APIs.
+
+Beginner level API
+    Learning and appreciating the usefulness of API
+	before we go ahead and start creating our own API
+	we need to appreciate the use of it
+	thus, we have a beginner section
+	in the beginner section we will make use of available guides
+	follow them and play aorund with them
+	list of API used:
+	1. datamuse
+		query seach engine
+	2. open-notify
+		facts about space
+	3. Find a fun one to follow and build your API  Knowledge upon
+
+
+Interediate level API
+	here we will no longer be reffering ot guide
+	instead we will decide on API to use to create our own projects
+	Think of fun ideas and programs to write and write them
+	Here is the stage where we do more self-guidance
+	list of project made and API used
+	1. Telegram bot for random cats
+	2. telegram API with authentication
+
+Advance level 
+	after being able to used API well and appreciating them
+	we need to learn how to make API
+	there is a lot of talk on RESTful API
+	
